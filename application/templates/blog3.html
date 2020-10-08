@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Skillhunt</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../static/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/animate.css">
+    
+    <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../static/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../static/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="../static/css/aos.css">
+
+    <link rel="stylesheet" href="../static/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="../static/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../static/css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="../static/css/flaticon.css">
+    <link rel="stylesheet" href="../static/css/icomoon.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+  </head>
+  <body>
+    
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container-fluid px-md-4	">
+	      <a class="navbar-brand" href="/index">Skillhunt</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="/index" class="nav-link">Home</a></li>
+	          <!--li class="nav-item"><a href="browsejobs.html" class="nav-link">Browse Jobs</a></li-->
+	          <!--li class="nav-item"><a href="candidates.html" class="nav-link">Canditates</a></li-->
+	          <li class="nav-item"><a href="/index.html#blogs" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
+	          {% if session['anonymous_user_contact'] %}
+              <li class="nav-item cta mr-md-1"><a href="/logout" class="nav-link">Logout</a></li>
+              <li class="nav-item cta cta-colored"><a href="/profile" class="nav-link">Profile</a></li>
+            {% else %}
+	            <li class="nav-item cta mr-md-1"><a href="/login" class="nav-link">Login</a></li>
+              <li class="nav-item cta cta-colored"><a href="/signup" class="nav-link">Sign Up</a></li>
+            {% endif %}
+          </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+    <div class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-end justify-content-start">
+          <div class="col-md-12 ftco-animate text-center mb-5">
+            <h1 class="mb-3 bread">Trends 2020</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+		<section class="ftco-section ftco-degree-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ftco-animate">
+            <p>TWith the onset of pandemic, the recruitment process was transformed overnight and trend predictions have had to evolve along with this. Below, we have detailed four of the most essential developments in this sphere.
+            <ul>
+
+            <li>1. Employer Branding
+              <br>
+              With so much of our world migrating online in the last few months, potential candidates now have more time to research your company presence and reputation. According to TalentLyft, businesses with strong employer brands see 50% more qualified applicants. People want to work in companies they can be proud of, companies that live by the positive messaging they extol and are transparent. If you are plagued by a bad standing, attracting and retaining new talent becomes increasingly difficult.
+
+Now really is the time to pre-emptively address this. Be crystal clear in your mission, be authentic in your values and show pride in your employees. Become a destination company that not only talks the talk. As the world continues to change on a daily basis, your branding can be the bedrock that provides a stability that is desirable.
+            </li>>
+              <li>2. Diversity and Inclusion
+              <br>
+                It has been proven numerous times that diverse and inclusive teams perform better. It’s almost intuitive now, at least in terms of understanding on a face level, but there is a growing (and welcome) trend that seeks to hammer home the point that just hiring diverse employees isn’t enough. It’s the inclusion aspect that often gets overlooked, even in businesses that purport to be diverse. Companies need to foster environments of belonging across gender, racial, age, identity and ability spectrums. The goal is to build workplaces where everyone is treated fairly, with respect and where employees feel valued and welcome. Actively seeking to change requires effort and prioritising D&I is no longer an optional, “nice-to-have” hiring policy.
+
+According to BuiltIn, more than half of potential candidates will ask about diversity and inclusion during interviews, so having concrete evidence to provide is only advantageous. If the past few months have proven anything, it’s that society is ripe for change and it is much better to be riding this wave than fighting against it.
+            </li>>
+              <li>3. Out Of Office
+              <br>
+                With the advent of social distancing in particular, recruitment has had to venture online almost entirely and in so doing, finding ways to remain distinctly human in this digitally-driven world has become paramount. From an employer perspective, careful communication with candidates through their entire employee journey is increasingly important. In a world where so little makes sense, endeavour to be consistent and forthright with how you interact and nurture your potential talent. Start by modifying your job postings, focusing in on the new most sought after benefits like remote working, flexible schedules and access to technology.
+
+It was reported that 43% of full-time employees wish to continue working from home even when the economy reopens, so being able to offer flexibility will always appeal. Remote working also grants the ability to cast a wider net, broadening talent pools without the geographical limitations. It’s a mind-set change more than anything and one that needs to be embraced.
+            </li>>
+              <li>4. Turning to technology
+              <br>
+                The greater lean on technology has been a connecting thread throughout this article for obvious reasons. It’s fair to say the recruitment industry has always looked to technology to streamline and hasten the hiring process. However, it has become a crucial component when so many are working from home and application numbers increase in line with rising unemployment.
+
+According to Capterra, 94% of hiring professionals believe that recruitment software in some form has improved their hiring method. The use of AI and automation technology enables more consistent results, removing variables and bias from the process to ensure both fairness and accuracy in the selection process. Also, by using these tools to cover things like CV screening and interview scheduling, it allows recruiters more time to focus on the more meaningful, human aspects of hiring. It’s about finding a balance. With a harmonious blend of interpersonal skill and technology, recruiters can hope to find the top talent in the most efficient and pleasant manner.
+
+Succinctly put by Recruiter, “internal and external factors will always mess with the best laid hiring plans”. The ability to adapt and evolve has become a key skill in a landscape that has been ravaged by pandemic.
+
+Recruitment trends will always ebb and flow in relation to the world. Being able to embrace change and refocus your efforts will be the bottom line when it comes to success.
+            </li>>
+          </ul>
+            </p>
+            <p>
+            <img src="../static/images/image_7.jpg" alt="" class="img-fluid">
+            </p>
+            <p>{{ paragraph2 }}</p>
+
+            <!-- END comment-list -->
+            </div>
+
+          </div> <!-- .col-md-8 -->
+           
+            <!--div class="sidebar-box ftco-animate">
+              <h3 class="heading-3">Recent Blog</h3>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(../static/images/image_1.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(../static/images/image_2.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(../static/images/image_3.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                </div>
+              </div>
+            </div-->
+
+        </div>
+      </div>
+    </section> <!-- .section -->
+		
+		<section class="ftco-section-parallax">
+      <div class="parallax-img d-flex align-items-center">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+              <h2>Subcribe to our Newsletter</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+              <div class="row d-flex justify-content-center mt-4 mb-4">
+                <div class="col-md-12">
+                  <form action="#" class="subscribe-form">
+                    <div class="form-group d-flex">
+                      <input type="text" class="form-control" placeholder="Enter email address">
+                      <input type="submit" value="Subscribe" class="submit px-3">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+        	<div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Skillhunt Jobboard</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+         
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Account</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="pb-1 d-block">My Account</a></li>
+                <li><a href="#" class="pb-1 d-block">Sign In</a></li>
+                <li><a href="#" class="pb-1 d-block">Create Account</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+ 
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="../static/js/jquery.min.js"></script>
+  <script src="../static/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="../static/js/popper.min.js"></script>
+  <script src="../static/js/bootstrap.min.js"></script>
+  <script src="../static/js/jquery.easing.1.3.js"></script>
+  <script src="../static/js/jquery.waypoints.min.js"></script>
+  <script src="../static/js/jquery.stellar.min.js"></script>
+  <script src="../static/js/owl.carousel.min.js"></script>
+  <script src="../static/js/jquery.magnific-popup.min.js"></script>
+  <script src="../static/js/aos.js"></script>
+  <script src="../static/js/jquery.animateNumber.min.js"></script>
+  <script src="../static/js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="../static/js/google-map.js"></script>
+  <script src="../static/js/main.js"></script>
+    
+  </body>
+</html>
